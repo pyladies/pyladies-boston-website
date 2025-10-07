@@ -1,6 +1,6 @@
 # netlify-website-template
 
-Example of PyLadies Website theme powered by Netlify with [a standard pull request template](github.com/pyladies/netlify-website-template/PULL_REQUEST_TEMPLATE). You can preview the template [here](https://netlify-template-simple.netlify.app).
+Example of PyLadies Website theme powered by Netlify with [a standard pull request template](github.com/pyladies/netlify-website-template/PULL_REQUEST_TEMPLATE). You can preview the template [here](https://netlify-template-simple.netlify.app)
 
 ## What is Netlify?
 
