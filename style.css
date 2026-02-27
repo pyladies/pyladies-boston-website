@@ -38,3 +38,13 @@ body {
 	margin-top: 0;
 	display: block;
 }
+
+ .photo-credit {
+    font-size: 0.85rem;
+    opacity: 0.8;
+    display: block;
+    margin-top: 0.5rem;
+  }
+  .photo-credit a {
+    text-decoration: underline;
+  }
