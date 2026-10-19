@@ -215,7 +215,7 @@ h1,h2,h3,h4 {
 
 .skyline {
 	background-image: url('images/skyline2.jpg');
-	height: 400px;
+	height: 100vh;
 	width: 100vw;
 	background-size: cover;
 	background-position: center;
