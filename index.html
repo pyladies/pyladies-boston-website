@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>PyLadies Boston</title>
         <meta name="description" content="PyLadies Boston - An international mentorship group for underrepresented genders in the Python community serving Greater Boston and New England">
@@ -16,8 +16,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
+        <a class="sr-only sr-only-focusable skip-link" href="#main">Skip to main content</a>
         <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
-            <a class="navbar-brand" href="#pyladies">
+            <a class="navbar-brand" href="#pyladies" aria-label="PyLadies Boston home">
                 <div class="med-geek"></div>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,17 +45,17 @@
                 </ul>
             </div>
         </nav>
-        <img src="images/logo.png" id="floating-logo">
+        <img src="images/logo.png" id="floating-logo" alt="PyLadies">
 
 
         <div class="skyline"></div>
         <span class="bannercredits"><a href="https://unsplash.com/@muzammilo" target="_blank">Muzammil Soorma</a> via Unsplash</span>
-        <div class="container-fluid">
+        <main id="main" tabindex="-1" class="container-fluid">
             <div class="row" id="pyladies">
                 <h1 class="col-sm-12 text-center">PyLadies Boston</h1>
-                <img src="./images/line.svg" class="hr-squiggle col-sm-12">
+                <img src="./images/line.svg" alt="" class="hr-squiggle col-sm-12">
                 <div class="col-sm-12 col-md-3 offset-md-1">
-                    <img src="images/PyLadies_Boston_logo.png" class="geek" alt="pyladies-geek" width=300>
+                    <img src="images/PyLadies_Boston_logo.png" class="geek" alt="PyLadies Boston logo" width=300>
                 </div>
                 <div class="col-sm-12 col-md-7">
                     <p>
@@ -72,7 +73,7 @@
             </div>
             <div class="row pink" id="events">
                 <h2 class="col-sm-12 text-center">Events</h2>
-                <img src="./images/line.svg" class="hr-squiggle col-sm-12" />
+                <img src="./images/line.svg" alt="" class="hr-squiggle col-sm-12" />
                 <div class="col-sm-12 col-md-10 offset-md-1  text-center">
                     <p>
                         Join our <a href="https://www.meetup.com/pyladies-boston/" target="_blank">Meetup group</a> to
@@ -85,12 +86,12 @@
                 </div>
             </div>
             <div class="row" id="organizers">
-                <div class="col-sm-12 col-md-10 offset-md-1 section text-center" id="organizers">
-                    <h4>Organizers</h4>
-                    <img src="./images/line.svg" class="hr-squiggle">
+                <div class="col-sm-12 col-md-10 offset-md-1 section text-center">
+                    <h2>Organizers</h2>
+                    <img src="./images/line.svg" alt="" class="hr-squiggle">
                     <div class="bio-container">
                         <div class="organizer-container">
-                            <img src="./images/bios/pyladies_ducklings.svg" class="organizer landscape" />
+                            <img src="./images/bios/pyladies_ducklings.svg" class="organizer landscape" alt="Illustration of the PyLadies mascot with ducklings on her head" />
                             <figcaption>Ducklings PyLadies image provided by <a href="https://github.com/sklasfeld" target="_blank">sklasfeld</a></figcaption>
                         </div>
                         <div class="bio">
@@ -109,8 +110,8 @@
             </div>
             <div class="row pink" id="resources">
                     <div class="col-sm-12 col-md-10 offset-md-1  text-center">
-                        <h4 class="col-sm-12 text-center">Resources</h4>
-                        <img src="./images/line.svg" class="hr-squiggle col-sm-12" />
+                        <h2 class="col-sm-12 text-center">Resources</h2>
+                        <img src="./images/line.svg" alt="" class="hr-squiggle col-sm-12" />
                         <div class="resource-container">
                             <a href="https://www.python.org/psf/" target="_blank" class="resource-link">
                                 <div class="resource">
@@ -125,9 +126,9 @@
                     </div>
             </div>
             <div class="row" id="about">
-                <div class="col-sm-12 col-md-10 offset-md-1 section text-center" id="about">
-                    <h4>About PyLadies</h4>
-                    <img src="./images/line.svg" class="hr-squiggle">
+                <div class="col-sm-12 col-md-10 offset-md-1 section text-center">
+                    <h2>About PyLadies</h2>
+                    <img src="./images/line.svg" alt="" class="hr-squiggle">
 
                     <p>
                         PyLadies is an international mentorship group with a focus on helping more women become active
@@ -145,8 +146,8 @@
             </div>
             <div class="row pink">
                 <div class="col-sm-12 section text-center" id="contact">
-                    <h4>Connect</h4>
-                    <img src="./images/line.svg" class="hr-squiggle">
+                    <h2>Connect</h2>
+                    <img src="./images/line.svg" alt="" class="hr-squiggle">
                     <p>
                         Follow us on <a href="https://www.linkedin.com/company/pyladies-boston" target="_blank">LinkedIn</a>
                         or join our <a href="https://www.meetup.com/pyladies-boston/events/" target="_blank">
@@ -163,16 +164,16 @@
                     </p>
                 </div>
             </div>
-        </div>
-        <div class="footer">
+        </main>
+        <footer class="footer">
             <p>
                 <a href="https://www.netlify.com"><img src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Deploys by Netlify" width=100 height=35/></a>
-                <a href="https://www.linkedin.com/company/pyladies-boston" target="_blank"><span class="fa fa-linkedin">&nbsp;</span></a>
-                <a href="https://github.com/pyladies" target="_blank"><span class="fa fa-github">&nbsp;</span></a>
-                <a href="http://slackin.pyladies.com" target="_blank"><span class="fa fa-slack">&nbsp;</span></a>
+                <a href="https://www.linkedin.com/company/pyladies-boston" target="_blank" aria-label="PyLadies Boston on LinkedIn"><span class="fa fa-linkedin" aria-hidden="true">&nbsp;</span></a>
+                <a href="https://github.com/pyladies" target="_blank" aria-label="PyLadies on GitHub"><span class="fa fa-github" aria-hidden="true">&nbsp;</span></a>
+                <a href="http://slackin.pyladies.com" target="_blank" aria-label="Join PyLadies on Slack"><span class="fa fa-slack" aria-hidden="true">&nbsp;</span></a>
                 <span class="footer-title">PyLadies Boston 2026</span>
             </p>
-        </div>
+        </footer>
     </body>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
