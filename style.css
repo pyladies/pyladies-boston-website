@@ -402,3 +402,11 @@ span.fa {
 		display: none;
 	}
 }
+
+/* Connect section sub-headings */
+.connect-heading {
+	margin: 25px 0 10px 0;
+	font-family: 'Rubik', sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+}
