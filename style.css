@@ -64,9 +64,8 @@ p {
 	width: 275px;
 	height: 125px;
 	top: 20%;
-	place-self: center;
-	/* left: 50%; */
-	/* transform: translateX(-50%); */
+	left: 50%;
+	transform: translateX(-50%);
 	z-index: 50;
 }
 
