@@ -417,3 +417,5 @@ span.fa {
   border-radius: 8px;
   margin-bottom: 15px;
 }
+
+.connect-cta,.connect-cta:focus{background-color:#f13a59;border-color:#f13a59;color:#fff}.connect-cta:hover,.connect-cta:active{background-color:#d92e4c;border-color:#d92e4c;color:#fff}
