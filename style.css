@@ -218,7 +218,7 @@ h1,h2,h3,h4 {
 	height: 400px;
 	width: 100vw;
 	background-size: cover;
-	background-position: center;
+	background-position: center 47%;
 	background-repeat: no-repeat;
 	position: relative;
 	z-index: 1;
