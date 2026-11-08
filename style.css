@@ -58,16 +58,20 @@ p {
 }
 
 /* Big pyladies script logo */
-#floating-logo {
+#floating-logo-wrap {
 	position: absolute;
-	display: block;
+	top: 20%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	z-index: 50;
+	pointer-events: none;
+}
+
+#floating-logo {
+	display: inline-block;
 	width: 275px;
 	height: 125px;
-	top: 20%;
-	place-self: center;
-	/* left: 50%; */
-	/* transform: translateX(-50%); */
-	z-index: 50;
 }
 
 /* @media (min-width: 500px) {
